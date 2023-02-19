@@ -1,0 +1,196 @@
+<!DOCTYPE html >
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <!--Boot Strap-->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <!--Normalize-->
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="../CSS/main-stylesheet.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <title>Contact Us</title>
+</head>
+    <body>
+        <!--start navbar-1-->
+    <div class="up fs-1">
+        <a href="#"><i class="fa-regular fa-circle-up"></i></a>
+      </div>
+      <div class="navbar-1" id="navbar-1">
+        <div class="container">
+          <div class="d-flex justify-content-center align-items-center ">
+            <h6 class="p-1 mt-1">Antikiano Art School</h6> 
+          </div>  
+        </div>
+      </div>
+      <!--End navbar-1-->
+      <!--Start navbar-->
+      <div class="navbar navbar-expand-lg sticky-top p-0 " id="navbar">
+        <div class="container">
+            <a href="#"><img class="img-fluid" src="../Images/logo.png" alt=""></a>
+            <a class="logo text-light text-uppercase me-lg-4 fs-4" href="../index.html">انتيكيانو ستور</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+              <div class="navbar-links d-flex flex-grow-1 justify-content-between align-items-center m-2">
+                <!--main links-->
+                <ul class="links navbar-nav list-unstyled ">
+                  <li class="nav-item me-3">
+                    <a class="nav-link active text-light fw-bold" aria-current="page" href="../index.html">الرئيسية</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      قطع
+                    </a>
+                    <ul class="dropdown-menu d-">
+                      <li><a class="dropdown-item fw-bold text-center" href="#!">مكرميه</a></li>
+                      <li><a class="dropdown-item fw-bold text-center" href="#!">دريم كاتشر</a></li>
+                      <li><a class="dropdown-item fw-bold text-center" href="#!">استرنج ارت</a></li>
+                      <li><a class="dropdown-item fw-bold text-center" href="#!">لف ورق ريزين</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      أدوات
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item fw-bold text-center" href="#">أداة</a></li>
+                        <li><a class="dropdown-item fw-bold text-center" href="#">أداه</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="../Pages/about-us.html">معلومات عنا</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-light fw-bold" href="../Pages/contact-us.html">تواصل معنا</a>
+                  </li> 
+                </ul>  
+                <!--search-->
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="بحث" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>  
+            </div>
+        </div>
+      </div>
+      <!--End navbar--> 
+      <section class="contact-landing mt-5 pt-5 mb-5 pb-5" id="landing">
+        <h1 class="title text-center fw-bold pt-5">تواصل معنا</h1>
+        </section>
+        <!-- End header-->
+        <!--Start content-->
+        <section class="form mb-5 pb-5">
+            <div class="container">
+                <label for="message" class="form-label fw-bold">لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة محددة *</label>
+                <div class="w-75">    
+                    <form>
+                        <div class="d-flex align-items-center justify-content-between pb-5">
+                            <div class="d-flex flex-column">
+                                <label for="name" class="form-label fw-bold mb-4">الإسم*</label>
+                                <input class="rounded mail-input" type="text" id="name" name="name">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <label for="mail" class="form-label fw-bold mb-4">البريد الالكترونى*</label>
+                                <input class="rounded mail-input" type="text" id="mail" name="mail">
+                            </div>
+                        </div>
+                        <div class="form mb-5">
+                            <label class="mb-5 fw-bold" for="floatingTextarea2 ">رسالتك*</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        </div>
+                    </form>
+                    <a class="send-btn mb-5 rounded text-light fw-bold" id="send-btn" href="#!">ارسال</a>
+                </div>
+            </div>
+        </section>
+        <!--End content-->
+
+        <!-- Start Footer -->
+    <div class="footer pt-5 pb-5 text-white text-center text-md-end">
+        <div class="container-fluid ps-lg-5 pe-lg-5">
+          <div class="row">
+            <!--col-1-->
+            <div class="col-lg-5 coll-1 text-lg-end">
+              <div class="info d-lg-block d-md-flex flex-column ">
+                <a class="text-light fs-3" href="../index.html"><img class="mb-4 footer-image" src="../images/logo.png" alt=""> انتيكيانو ستور</a>
+                <p class="text-end ">
+                  في تيم انتيكيانو هدفنا نكون اكبر منصه تعليمية للفنون في الشرق الاوسط ، فريق انتيكيانو شغوف بتقديم ورش وقطع فنيه مختلفه في اكتر من 26 خامه فنيه ،زي " المكرمية ، والطباعه ، والاركيت ، والكويلنيج ، والرسم ، والنحت ، والتصوير ، والجلود ...." وغيرهم فنون تانيه كتير ، وعلشان كده احنا في انتيكيانو هدفنا صناعه فنان شامل ، يقدر يقدم اكتر من قطعه فنيه ، ويربطهم ببعض ، وده بحاجات جديده كل يوم مع بعض ، نشر الفن وتبسطه هدفنا الاول ، مش بس من خلال المنصه لكن كمان عن طريق اللقاءات الاوف لاين المتكرره انتيكيانو بتقولنا نستمتع علشان احنا نستحق
+                </p>
+              </div>
+            </div>
+            <!--col-2-->
+            <div class="col-lg-2 coll-2 text-lg-end">
+              <div class="links">
+                <h5 class="text-light fs-3 fw-bold">روابط سريعه</h5>
+                <ul class="list-unstyled lh-lg p-0">
+                  <li><a class="text-light" href="../index.html">الرئيسية</a></li>
+                  <li><a class="text-light"href="#!">قطع</a></li>
+                  <li><a class="text-light" href="#!">ادوات</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--col-3-->
+            <div class="col-lg-2 coll-3 text-lg-end">
+              <div class="links">
+                <h5 class="text-light fs-3 fw-bold">مساعدات</h5>
+                <ul class="list-unstyled lh-lg p-0">
+                  <li><a class="text-light" href="Pages/courses.html">سياسة الخصوصيه</a></li>
+                  <li><a class="text-light" href="Pages/about-me.html">بيع المنتجات</a> </li>
+                  <li><a class="text-light" href="#"></a></li>
+                  <li><a class="text-light" href="#"></a></li>
+                  <li><a class="text-light" href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!--col-4-->
+            <div class="col-lg-3 coll-4 text-lg-end">
+              <div class="contact">
+                <h5 class="text-light pb-3 fs-3 fw-bold">اتصل بنا</h5>
+                <a class="text-light" href="mailto:Antikiano2018@gmail.com">Antikiano2018@gmail.com</a>
+                <p>01024969910</p>
+                <ul class="social-links d-flex list-unstyled mt-3 p-3">
+                  <li>
+                    <a class="pe-1" href="https://www.facebook.com/Antikiano?_rdc=1&_rdr" target="_blank">
+                      <i class="fa-brands fa-facebook fa-2x facebook rounded-circle p-lg-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pe-1" href="https://twitter.com/Belal98718315" target="_blank">
+                      <i class="fa-brands fa-twitter fa-2x twitter rounded-circle p-lg-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pe-1" href="https://www.instagram.com/antikianoo/?igshid=NTA5ZTk1NTc%3D" target="_blank">
+                      <i class="fa-brands fa-instagram fa-2x instagram rounded-circle p-lg-2"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="pe-1" href="https://www.youtube.com/channel/UCE65NOv8HT6u1NC9JM2_BPA" target="_blank">
+                      <i class="fa-brands fa-youtube fa-2x youtube rounded-circle p-lg-2"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright fs-5 text-center pt-2 pb-3 fw-bold">
+          جميع الحقوق محفوظة  &copy;<span>في أنتيكيانو 2023</span>
+        </div>
+      <!-- Start Footer -->
+        <!--Boot Strap & Font Awesome-->
+        <script src="../JS/bootstrap.bundle.min.js"></script>
+        <script script script src="../JS/all.min.js"></script>
+    </body>
+</html>
